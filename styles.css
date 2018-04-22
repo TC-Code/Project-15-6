@@ -9,11 +9,12 @@
 body {
   font-family: "Cute Font", cursive;
   color: #daa520;
+  background-color: #1a2e44;
 }
 
 .container {
   margin: 60px auto;
-  width: 280px;
+  width: 340px;
   height: 180px;
   display: flex;
   flex-direction: column;
@@ -24,9 +25,10 @@ body {
 
 .controls {
   margin-top: 20px;
-  width: 200px;
+  width: 280px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .button {
